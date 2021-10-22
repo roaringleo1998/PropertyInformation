@@ -1,0 +1,196 @@
+   <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: #EEE;
+}
+
+header {
+    background-color:#FFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 142px;
+    padding-right: 142px;
+}
+
+header nav h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+header nav .tabs {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .tabs .tab {
+    display: block;
+}
+
+header nav .tabs .tab a[data-switcher] {
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: royalblue;
+    cursor: pointer;
+}
+
+header nav .tabs .tab:hover a[data-switcher] {
+    background-color: #F7A800;
+}
+
+header nav .tabs .tab.is-active a[data-switcher] {
+    background-color: #F7A800;
+    font-weight: 700;
+}
+
+main {
+    padding-left: 142px;
+    padding-right: 142px;
+}
+
+.pages {
+    margin-top: 100px;
+    padding: 50px 30px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pages .page {
+    display: none;
+}
+
+.pages .page.is-active {
+    display: block;
+}
+</style>
+  * {
+  font-family: sans-serif; /* Change your font family */
+}
+
+.content-table {
+    left: -20px;
+    position: relative;
+  top: -30px;
+  margin-right: 5px;
+  width: 1300px;
+  position: relative;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 1px 1px 1px 1px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #21A0D2;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+#gol{
+  margin-bottom: -50px;
+  top: -30px;
+  margin-left: -200px;
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 15px;
+ background-color:#014B94;
+}
+
+#cid
+{
+  width:1200px;
+ top: 10px;
+  right: 50px;
+  position: relative;
+padding-left:px;
+padding-right:px;
+color:white;
+background-color:#014B94;
+}
+.poi{
+  top: -220px;
+  left: -350px;
+  width: 200px;
+  position: relative;
+}
+
+tr:hove {
+        background-color: #f5f5f5;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+     tr {
+        transition: all .5s ease-in;
+        cursor: pointer;
+    }
+
+     ddlcountry:hover{
+         background-color: #f5f5f5;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0
+     }
+     #search:hover{
+         background-color: #f5f5f5;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0
+     }
+     #search {
+        transition: all .5s ease-in;
+        cursor: pointer;
+    }
+    #cl_age{
+        padding: 30px;
+        width: 100px;
+    }
+    #ddlAge{
+        padding: 30px;
+        margin: 5px;
+        width: 300px;
+    }
+   #iil{
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+   }
+ 
