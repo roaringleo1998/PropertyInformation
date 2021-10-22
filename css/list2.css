@@ -1,0 +1,104 @@
+
+  * {
+  font-family: sans-serif; /* Change your font family */
+}
+
+
+
+.content-table thead tr {
+  background-color: #21A0D2;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color:  #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+#gol{
+  margin-bottom: -50px;
+  top: -30px;
+  margin-left: -200px;
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 15px;
+ background-color:#014B94;
+}
+
+#cid
+{
+  width:1300px;
+ top: 10px;
+  right: 50px;
+  position: relative;
+padding-left:px;
+padding-right:px;
+color:white;
+background-color:#014B94;
+}
+.poi{
+  top: -220px;
+  left: -350px;
+  width: 200px;
+  position: relative;
+}
+
+tr:hove {
+        background-color: #f5f5f5;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+    }
+     tr {
+        transition: all .5s ease-in;
+        cursor: pointer;
+    }
+
+     ddlcountry:hover{
+         background-color: #f5f5f5;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0
+     }
+     #search:hover{
+         background-color: #f5f5f5;
+        transform: scale(1.02);
+        box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0
+     }
+     #search {
+        transition: all .5s ease-in;
+        cursor: pointer;
+    }
+    #cl_age{
+        padding: 30px;
+        width: 100px;
+    }
+    #ddlAge{
+        padding: 30px;
+        margin: 5px;
+        width: 300px;
+    }
+   #iil{
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+   }
+ 
